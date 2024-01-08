@@ -1,0 +1,66 @@
+*{
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(./Image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#main{
+    width: 25%;
+    height: 55vh;
+    margin-left: 20px; 
+    margin-top: 25px;
+    border: 2px solid white;
+    background-color: whitesmoke;
+
+}
+
+table{
+    width: 100%;
+}
+td{
+    padding-left: 14px;
+}
+.name{
+    background-image: url(./Image/login.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left center;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+#email{
+    background-image: url(./Image/email.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left center;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+#password{
+    background-image: url(./Image/password-129.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left center;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.gender{
+    padding-left: 100px;
+}
+select{
+    width: 160px;
+    text-align: center;
+}
+button{
+    width: 160px;
+    margin-top: 5px;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+
+}
